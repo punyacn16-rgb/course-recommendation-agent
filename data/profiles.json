@@ -1,0 +1,32 @@
+{
+  "profiles": [
+    {
+      "id": "priya",
+      "name": "Priya",
+      "background": "Second-year commerce student with no formal programming experience.",
+      "goal": "Become a data analyst who can clean data, run statistics, and build dashboards.",
+      "known_skills": []
+    },
+    {
+      "id": "arjun",
+      "name": "Arjun",
+      "background": "Final-year CS student who has completed an intro Python course and knows basic SQL.",
+      "goal": "Break into machine learning and eventually specialize in natural language processing.",
+      "known_skills": ["python", "programming-basics", "sql"]
+    },
+    {
+      "id": "meera",
+      "name": "Meera",
+      "background": "Self-taught HTML/CSS hobbyist who has never used JavaScript.",
+      "goal": "Become a full-stack web developer able to build and deploy complete web applications.",
+      "known_skills": ["html", "css"]
+    },
+    {
+      "id": "karan",
+      "name": "Karan",
+      "background": "Junior data scientist comfortable with Python, pandas, and scikit-learn based ML models.",
+      "goal": "Learn how to deploy and maintain ML models in production on the cloud.",
+      "known_skills": ["python", "programming-basics", "python-oop", "file-handling", "pandas", "data-analysis", "statistics", "probability", "ml-basics", "scikit-learn"]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "courses": [
+    {
+      "id": "python-basics",
+      "title": "Python Fundamentals",
+      "track": "Programming Foundations",
+      "level": "beginner",
+      "skills_taught": ["python", "programming-basics"],
+      "prerequisites": [],
+      "estimated_hours": 20,
+      "description": "Variables, control flow, functions, and basic data structures in Python."
+    },
+    {
+      "id": "python-intermediate",
+      "title": "Intermediate Python (OOP & File Handling)",
+      "track": "Programming Foundations",
+      "level": "intermediate",
+      "skills_taught": ["python-oop", "file-handling"],
+      "prerequisites": ["python-basics"],
+      "estimated_hours": 18,
+      "description": "Object-oriented programming, modules, error handling, and working with files in Python."
+    },
+    {
+      "id": "sql-basics",
+      "title": "SQL Fundamentals",
+      "track": "Programming Foundations",
+      "level": "beginner",
+      "skills_taught": ["sql"],
+      "prerequisites": [],
+      "estimated_hours": 12,
+      "description": "Querying relational databases: SELECT, JOIN, GROUP BY, and basic schema design."
+    },
+    {
+      "id": "stats-basics",
+      "title": "Statistics & Probability for Data Science",
+      "track": "Data Science & ML",
+      "level": "beginner",
+      "skills_taught": ["statistics", "probability"],
+      "prerequisites": [],
+      "estimated_hours": 16,
+      "description": "Descriptive statistics, distributions, hypothesis testing, and probability foundations for data work."
+    },
+    {
+      "id": "data-analysis-pandas",
+      "title": "Data Analysis with Pandas",
+      "track": "Data Science & ML",
+      "level": "beginner",
+      "skills_taught": ["pandas", "data-analysis"],
+      "prerequisites": ["python-basics"],
+      "estimated_hours": 15,
+      "description": "Cleaning, transforming, and analyzing tabular data using the Pandas library."
+    },
+    {
+      "id": "data-viz",
+      "title": "Data Visualization (Matplotlib & Seaborn)",
+      "track": "Data Science & ML",
+      "level": "beginner",
+      "skills_taught": ["data-viz"],
+      "prerequisites": ["data-analysis-pandas"],
+      "estimated_hours": 10,
+      "description": "Communicating insights through charts, plots, and dashboards."
+    },
+    {
+      "id": "ml-foundations",
+      "title": "Machine Learning Foundations",
+      "track": "Data Science & ML",
+      "level": "intermediate",
+      "skills_taught": ["ml-basics", "scikit-learn"],
+      "prerequisites": ["python-intermediate", "stats-basics", "data-analysis-pandas"],
+      "estimated_hours": 30,
+      "description": "Core supervised/unsupervised ML algorithms and model evaluation with scikit-learn."
+    },
+    {
+      "id": "deep-learning-intro",
+      "title": "Deep Learning with PyTorch",
+      "track": "Data Science & ML",
+      "level": "advanced",
+      "skills_taught": ["deep-learning", "pytorch"],
+      "prerequisites": ["ml-foundations"],
+      "estimated_hours": 35,
+      "description": "Neural networks, backpropagation, and building models in PyTorch."
+    },
+    {
+      "id": "nlp-fundamentals",
+      "title": "NLP Fundamentals",
+      "track": "Data Science & ML",
+      "level": "advanced",
+      "skills_taught": ["nlp"],
+      "prerequisites": ["ml-foundations"],
+      "estimated_hours": 25,
+      "description": "Text preprocessing, embeddings, classic NLP tasks, and an intro to transformer models."
+    },
+    {
+      "id": "computer-vision-intro",
+      "title": "Computer Vision Basics",
+      "track": "Data Science & ML",
+      "level": "advanced",
+      "skills_taught": ["computer-vision"],
+      "prerequisites": ["deep-learning-intro"],
+      "estimated_hours": 25,
+      "description": "Image processing fundamentals and convolutional neural networks."
+    },
+    {
+      "id": "web-html-css",
+      "title": "HTML & CSS Basics",
+      "track": "Web Development",
+      "level": "beginner",
+      "skills_taught": ["html", "css"],
+      "prerequisites": [],
+      "estimated_hours": 12,
+      "description": "Structuring and styling web pages from scratch."
+    },
+    {
+      "id": "js-basics",
+      "title": "JavaScript Fundamentals",
+      "track": "Web Development",
+      "level": "beginner",
+      "skills_taught": ["javascript"],
+      "prerequisites": ["web-html-css"],
+      "estimated_hours": 18,
+      "description": "Core JavaScript: DOM manipulation, events, and asynchronous programming."
+    },
+    {
+      "id": "react-basics",
+      "title": "React for Frontend Development",
+      "track": "Web Development",
+      "level": "intermediate",
+      "skills_taught": ["react"],
+      "prerequisites": ["js-basics"],
+      "estimated_hours": 22,
+      "description": "Building component-based UIs with React, hooks, and state management."
+    },
+    {
+      "id": "backend-node",
+      "title": "Backend Development with Node.js",
+      "track": "Web Development",
+      "level": "intermediate",
+      "skills_taught": ["nodejs", "rest-apis"],
+      "prerequisites": ["js-basics"],
+      "estimated_hours": 20,
+      "description": "Building REST APIs and server-side applications with Node.js and Express."
+    },
+    {
+      "id": "databases-design",
+      "title": "Database Design & Modeling",
+      "track": "Web Development",
+      "level": "intermediate",
+      "skills_taught": ["db-design"],
+      "prerequisites": ["sql-basics"],
+      "estimated_hours": 14,
+      "description": "Normalization, ER diagrams, and designing schemas for real applications."
+    },
+    {
+      "id": "cloud-fundamentals",
+      "title": "Cloud Computing Fundamentals (AWS)",
+      "track": "Cloud & DevOps",
+      "level": "beginner",
+      "skills_taught": ["cloud-aws"],
+      "prerequisites": ["python-basics"],
+      "estimated_hours": 16,
+      "description": "Core AWS services: compute, storage, networking, and deployment basics."
+    },
+    {
+      "id": "docker-basics",
+      "title": "Containers with Docker",
+      "track": "Cloud & DevOps",
+      "level": "beginner",
+      "skills_taught": ["docker"],
+      "prerequisites": ["python-basics"],
+      "estimated_hours": 10,
+      "description": "Packaging and running applications in containers."
+    },
+    {
+      "id": "mlops-intro",
+      "title": "MLOps Fundamentals",
+      "track": "Cloud & DevOps",
+      "level": "advanced",
+      "skills_taught": ["mlops"],
+      "prerequisites": ["ml-foundations", "docker-basics", "cloud-fundamentals"],
+      "estimated_hours": 20,
+      "description": "Deploying, monitoring, and maintaining ML models in production."
+    }
+  ]
+}
