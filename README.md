@@ -6,7 +6,7 @@ plain-English reason for every course.
 
 Built for the Rooman 24-Hour AI Agent Challenge.
 
----
+
 
 ## What it does
 
@@ -20,7 +20,7 @@ in the path and what it builds on.
  and produces an ordered learning path with reasons for each step."
 ```
 
----
+
 
 ## How it works (architecture)
 
@@ -221,3 +221,6 @@ Arjun, Meera, Karan) are committed in `outputs/`.
 - No UI beyond the CLI.
 - Rationale quality depends on whether an LLM key is configured; the
   committed sample outputs use the template fallback (see above).
+
+  ## Author
+Built by Punya CN for the Rooman 24-Hour AI Agent Challenge.
